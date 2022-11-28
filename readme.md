@@ -1,8 +1,10 @@
-# TDD Flask - Stores REST Api
+# TDD Python
 
-This is a TDD implementation built with Flask, Flask-RESTful, Flask-JWT, and Flask-SQLAlchemy.
+TDD implementation for the following:
+1) CLI
+2) Flask - Stores REST Api
+3) 
 
 To get started:
-
 - Create a virtualenv for this project
 - Install requirements using `pip install -r requirements.txt`
