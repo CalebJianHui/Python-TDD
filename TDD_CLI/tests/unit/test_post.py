@@ -1,5 +1,5 @@
 from unittest import TestCase
-from post import Post
+from TDD_CLI.post import Post
 
 
 class PostTest(TestCase):

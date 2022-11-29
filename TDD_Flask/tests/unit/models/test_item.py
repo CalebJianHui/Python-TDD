@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from models.item import ItemModel
+from TDD_Flask.models.item import ItemModel
 
 
 class ItemTest(TestCase):

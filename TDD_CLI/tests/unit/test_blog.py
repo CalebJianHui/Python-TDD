@@ -1,5 +1,5 @@
 from unittest import TestCase
-from blog import Blog
+from TDD_CLI.blog import Blog
 
 
 class BlogTest(TestCase):

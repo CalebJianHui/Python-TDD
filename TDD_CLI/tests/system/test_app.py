@@ -1,8 +1,8 @@
 from unittest import TestCase
 from unittest.mock import patch
-import app
-from blog import Blog
-from post import Post
+from TDD_CLI import app
+from TDD_CLI.blog import Blog
+from TDD_CLI.post import Post
 
 
 class AppTest(TestCase):

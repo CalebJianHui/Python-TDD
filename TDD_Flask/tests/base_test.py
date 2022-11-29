@@ -6,8 +6,8 @@ Allows for instantiation of the database dynamically
 and makes sure that it is a new, blank database each time.
 """
 from unittest import TestCase
-from app import app
-from db import db
+from TDD_Flask.app import app
+from TDD_Flask.db import db
 
 
 class BaseTest(TestCase):

@@ -1,5 +1,5 @@
-from models.item import ItemModel
-from tests.base_test import BaseTest
+from TDD_Flask.models.item import ItemModel
+from TDD_Flask.tests.base_test import BaseTest
 
 
 class ItemTest(BaseTest):
