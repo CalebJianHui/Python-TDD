@@ -7,6 +7,7 @@ class StoreModel(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80))
 
+    # lazy=dynamic ensures that we only fetch the data when we call it
     items = db.relationship('ItemModel', lazy='dynamic')
 
     def __init__(self, name):

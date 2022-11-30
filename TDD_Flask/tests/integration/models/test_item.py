@@ -1,9 +1,9 @@
 from TDD_Flask.models.item import ItemModel
 from TDD_Flask.models.store import StoreModel
-from TDD_Flask.tests.integration.test_integration_base import BaseIntegrationTest
+from TDD_Flask.tests.integration.test_integration_base import IntegrationBaseTest
 
 
-class ItemTest(BaseIntegrationTest):
+class ItemTest(IntegrationBaseTest):
     def test_crud(self):
         with self.app_context():
             # SQLite do not enforce foreign key, but postgreSQL would enforce it
