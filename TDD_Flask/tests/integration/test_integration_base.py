@@ -10,7 +10,7 @@ from TDD_Flask.app import app
 from TDD_Flask.db import db
 
 
-class BaseTest(TestCase):
+class BaseIntegrationTest(TestCase):
     def setUp(self):
         # Make sure database exist
         # - For this project, we shall simply use sqlite,
